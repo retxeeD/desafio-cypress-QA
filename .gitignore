@@ -1,5 +1,2 @@
-# Ignorar a pasta do Cypress
-cypress/
-
 # Ignorar dependências
 node_modules/
