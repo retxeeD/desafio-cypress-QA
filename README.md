@@ -50,13 +50,15 @@ npx cypress run
 ## 🔍 Funcionalidade Testada
 
 Os testes automatizam o seguinte cenário:
-- **Adicionar um produto ao carrinho**: O teste garante que ao clicar no botão "Adicionar ao carrinho" o produto é corretamente adicionado ao carrinho.
+- **Adicionar um produto ao carrinho**: O teste garante que a funcionalidade de adicionar itens ao carrinho está obedecendo as regras de negócio e evitando falhas no fluxo, nao permitindo a adição de forma e itens invalidos.
 
 ### Testes incluem:
 1. Seleção do produto.
 2. Clique no botão "Adicionar ao carrinho".
-3. Verificação de que o produto foi adicionado ao carrinho (verificação do número de itens no carrinho).
-4. Verificação de que o produto não pode ser adiciona caso:
+3. Verificação de que produto único foi adicionado ao carrinho (verificação do número de itens no carrinho).
+4. Verificação de que diferentes produtos foram adicionados ao carrinho (verificação do número de itens no carrinho).
+5. Verificação de que produto único foi adicionado multiplas vezes ao carrinhos (verificação do número de itens no carrinho).
+6. Verificação de que o produto não pode ser adicionado caso:
     1. Tamanho não selecionado.
     2. Cor nao selecionada.
     3. Produto fora de estoque.
