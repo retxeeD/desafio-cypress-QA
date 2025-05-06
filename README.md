@@ -15,8 +15,8 @@ Este repositório contém testes de automação utilizando [Cypress](https://www
 Clone o repositório e instale as dependências:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-projeto.git
-cd nome-do-projeto
+git clone https://github.com/retxeeD/desafio-cypress-QA.git
+cd desafio-cypress-QA
 npm install
 ```
 
@@ -60,7 +60,3 @@ Os testes automatizam o seguinte cenário:
     1. Tamanho não selecionado.
     2. Cor nao selecionada.
     3. Produto fora de estoque.
-
-## 📄 Licença
-
-[MIT](LICENSE)
